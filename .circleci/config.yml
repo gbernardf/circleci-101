@@ -14,6 +14,6 @@ jobs:
       - image: circleci/ruby:2.4.1
     steps: 
       - checkout
-      - run: echo "A first hello"
+      - run: notacommand
 # What to do next? Set up a test job. Please see 
 # https://circleci.com/docs/2.0/configuration-reference/, for more  info on how to get started.
